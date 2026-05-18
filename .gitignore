@@ -6,9 +6,13 @@ __pycache__/
 venv/
 env/
 ENV/
+*.log
 
 # PyCharm
 .idea/
 *.iml
 
-
+# Временные файлы
+*.tmp
+*.bak
+bad_file.py
