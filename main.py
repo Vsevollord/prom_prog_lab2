@@ -16,10 +16,14 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero!")
     return a / b
 
+def sqrt(a):
+    return a**0.5
+
 def main():
     print("Simple Calculator")
     print(f"2 + 3 = {add(2, 3)}")
     print(f"5 - 2 = {subtract(5, 2)}")
+    print(f"sqrt(25) = {sqrt(25)}")
 
 if __name__ == "__main__":
     main()
