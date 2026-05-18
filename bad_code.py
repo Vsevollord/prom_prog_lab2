@@ -1,2 +1,2 @@
-def bad(  a,b  ):
+def bad(  a,b   ):
     return a+    b
