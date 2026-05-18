@@ -93,10 +93,22 @@ def power(a, b):
         return 1 / (a ** abs(b))
     return a ** b
 
-def floor_divide(a, b):
-    """Целочисленное деление (версия разработчика Б)"""
+def floor_divide(a: int, b: int) -> int:
+    """
+    Выполняет целочисленное деление.
+    
+    Args:
+        a: делимое
+        b: делитель
+    
+    Returns:
+        Целая часть от деления a на b
+    
+    Raises:
+        ValueError: если b == 0
+    """
     if b == 0:
-        raise ValueError("Cannot floor divide by zero")  # Выбрасывает исключение
+        raise ValueError(f"Cannot floor divide {a} by zero")
     return a // b
 
 def main():
