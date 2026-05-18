@@ -19,11 +19,15 @@ def divide(a, b):
 def sqrt(a):
     return a**0.5
 
+def square(a):
+    return a**2
+
 def main():
     print("Simple Calculator")
     print(f"2 + 3 = {add(2, 3)}")
     print(f"5 - 2 = {subtract(5, 2)}")
     print(f"sqrt(25) = {sqrt(25)}")
+    print(f"4**2 = {square(4)}")
 
 if __name__ == "__main__":
     main()
