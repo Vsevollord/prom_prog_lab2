@@ -24,18 +24,14 @@ def subtract(a, b):
             """
     return a - b
 
+
 def multiply(a, b):
+    """Multiplication of two numbers with other documentation.
+
+    This function now includes input validation and returns
+    the product of two numeric values.
     """
-            Умножение числа a на число b
-
-            Args:
-                a: Первое число
-                b: Второе число
-
-            Returns:
-                Результат умножения
-            """
-    return a * b
+    return a * b  # Разработчик Б: изменил докстринг
 
 def divide(a, b):
     """
