@@ -93,6 +93,12 @@ def power(a, b):
         return 1 / (a ** abs(b))
     return a ** b
 
+def floor_divide(a, b):
+    """Целочисленное деление (версия разработчика Б)"""
+    if b == 0:
+        raise ValueError("Cannot floor divide by zero")  # Выбрасывает исключение
+    return a // b
+
 def main():
     print("Simple Calculator")
     print(f"2 + 3 = {add(2, 3)}")
